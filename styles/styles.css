@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+main {
+  max-width: 840px;
+}
 nav{background-color: darkblue; 
     padding: 10px;}
     
@@ -12,47 +14,38 @@ nav a {
   padding: 20px;
   display: block; 
     }
-    h1 {
-      color: steelblue;
-      padding: .5rem;
+h1 {
+  color: steelblue;
+  padding: .5rem;
     }
 main img {
-  width: 150px;
-  height: auto;
-  border: 1px solid black;
-  padding: 2px;
+  width: 150px; 
+  height: auto; 
+  border: 1px solid black; 
+  padding: 2px; 
   box-shadow: 0 0 30px grey;
-  float :right;
-  margin: 0 0 1rem 1rem;
 }
-
-
-img {
-    width: 150px; 
-    height: auto; 
-    border: 1px solid black; 
-    padding: 2px; 
-    box-shadow: 0 0 30px grey;
-}
-
-/* Class Selectors */
-.box{
-  margin: 1rem;
-  border: 1px solid rgb(0, 0, 0 / .1);
-  padding: 1rem;
-  background-color: #ddd;
-  color: #000
-}
-aside{
-  width: 20em;
+p {padding: 0;}
+footer {
+  margin-top: 15px;
+  border-top: 1px solid #000;
   text-align: center;
-  position: relative;
+}
+/* Class Selectors */
+
+aside {
+width: 20rem;
+margin: 1rem;
+border: 1px solid rgb(0 0 0 / 0.2); /* 1 */
+padding: 1rem;
+background-color: #eee;
+color: #333;
+text-align: center;
 }
 
 aside img{
-  width: 20em;
-  text-align: center;
-  position: relative;   
+  width: 200px;
+ height: auto;
 }
 
 aside h2 {
