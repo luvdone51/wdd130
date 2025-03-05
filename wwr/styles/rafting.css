@@ -1,0 +1,29 @@
+ 
+  body {
+    font-family: "Barlow", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  h1 {
+    font-family: "Barlow", serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+ 
+  h2 {
+    font-family: "Barlow", serif;
+    font-weight: 200;
+    font-style: italic;
+  }   
+  
+  h3 {
+    font-family: "Barlow", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  .barlow-semibold-italic {
+    font-family: "Barlow", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
