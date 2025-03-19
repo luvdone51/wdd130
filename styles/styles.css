@@ -1,8 +1,8 @@
 :root {
-    --main-bg-color: #f0f0f0;
-    --main-text-color: #333;
+    --main-bg-color: #cd687c;
+    --main-text-color: #5e5baf;
     --main-link-color: #0077cc;
-    --main-link-hover-color: #004466;
+    --main-link-hover-color: #2f87b3;
 }
 nav {
     background-color: var(--main-bg-color);
