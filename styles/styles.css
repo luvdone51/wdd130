@@ -18,11 +18,9 @@ nav a {
 }
 
 h1 {
-    background-color: var(--main-bg-color);
     color: var(--main-text-color);
     font-family: var(--main-text-color);
-    padding: var()
-
+    padding: var(--padding)
 }
 img {
     width: 150px;
