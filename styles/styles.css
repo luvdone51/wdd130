@@ -61,3 +61,20 @@ footer {
   border-top: 1px solid #000;
   text-align: center;
 }
+/* class selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+aside {
+    width: 20rem;
+    text-align: center;
+}
+.box {
+    width: 100%;
+    height: auto;
+}
+
