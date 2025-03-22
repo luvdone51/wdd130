@@ -1,0 +1,21 @@
+:root {
+    --main-bg-color: #ead637;
+    --main-text-color: #0038f1;
+    --main-link-color: #28afb0;
+    --main-link-hover-color: #2f87b3;
+    --padding: 1rem;
+    --border: 1px solid rgb(0 0 0 / 0.1);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+}
+nav {
+    background-color: var(--main-bg-color);
+    padding: 10px;
+}
