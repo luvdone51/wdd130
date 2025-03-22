@@ -20,10 +20,7 @@ h1 {
     padding: 0;
     box-sizing: border-box;
 }
-h1{
-    font-family: "Barlow", sans-serif;
-    font-weight: 500;
-}
+
 nav {
     background-color: var(--main-bg-color);
     padding: 10px;
