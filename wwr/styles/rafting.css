@@ -1,7 +1,7 @@
 :root {
-    --main-bg-color: #ead637;
-    --main-text-color: #0038f1;
-    --main-link-color: #28afb0;
+    --main-bg-color: #cc7543;
+    --main-text-color: #0038F1;
+    --main-link-color: #3a9494;
     --main-link-hover-color: #2f87b3;
     --padding: 1rem;
     --border: 1px solid rgb(0 0 0 / 0.1);
@@ -9,10 +9,12 @@
 body {
     font-family: "barlow", sans-serif;
     font-weight: 100;
-}
+    text-align: center;
+ }
 
 h1 {
     font-family: "barlow", sans-serif;
+    font-display: var(--main-text-color);
     font-weight: 500;
 }
 *{
@@ -23,7 +25,7 @@ h1 {
 
 nav {
     background-color: var(--main-bg-color);
-    padding: 10px;
+    padding: 2px;
 }
 
 h1 {
@@ -68,5 +70,6 @@ aside {
 
 aside img {
     width: 200px;
-    height: auto;
+    height: 100px;
+    border: var(--border);
 }
