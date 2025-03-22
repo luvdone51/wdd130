@@ -6,6 +6,15 @@
     --padding: 1rem;
     --border: 1px solid rgb(0 0 0 / 0.1);
 }
+body {
+    font-family: "barlow", sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: "barlow", sans-serif;
+    font-weight: 500;
+}
 *{
     margin: 0;
     padding: 0;
