@@ -11,17 +11,11 @@ body {
     font-weight: 100;
     text-align: center;
  }
-
+ 
 h1 {
     font-family: "barlow", sans-serif;
     font-display: var(--main-text-color);
     font-weight: 500;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 nav {
@@ -53,7 +47,11 @@ img {
     padding: 2px;
     box-shadow: 0 0 30px grey;
 }
-
+h2 {
+    color: var(--main-text-color);
+    font-family: var(--main-text-color);
+    padding: var(--padding);
+}
 p {
     padding: 10px;
     text-align: left;
