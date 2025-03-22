@@ -19,3 +19,52 @@ nav {
     background-color: var(--main-bg-color);
     padding: 10px;
 }
+nav {
+    background-color: var(--main-bg-color);
+    padding: 10px;
+}
+
+h1 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+}
+
+h1 {
+    color: var(--main-text-color);
+    font-family: var(--main-text-color);
+    padding: var(--padding)
+}
+
+img {
+    width: 150px;
+    height: auto;
+    border: var(--border);
+    padding: 2px;
+    box-shadow: 0 0 30px grey;
+}
+
+p {
+    padding: 10px;
+    text-align: left;
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: var(--padding);
+    background-color: var(--main-bg-color);
+    color: #333;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
