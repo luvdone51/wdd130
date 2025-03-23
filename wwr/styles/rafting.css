@@ -6,11 +6,6 @@
     --padding: 1rem;
     --border: 1px solid rgb(0 0 0 / 0.1);
 }
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 a {
     text-decoration: none;
 }
@@ -19,15 +14,16 @@ body {
     font-weight: 100;
     text-align: center;
 }
-
 .herodiv {
     margin: 10px auto;
     position: relative;
 }
 .herodiv img {
+    float: right;
     width: 100%;
     height: 300px;
     object-fit: cover;
+    float: right;
 }
 h1 {
     font-family: "Barlow", sans-serif;
@@ -38,4 +34,12 @@ nav a {
     color: var(--main-text-color);
     display: block;
     padding: 20px;
+}
+img{
+    width: 150px;
+    height: auto;
+    border: var(--border);
+    padding: 2px;
+    box-shadow: 0 0 30px grey;
+
 }
