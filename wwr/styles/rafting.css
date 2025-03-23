@@ -19,16 +19,7 @@ body {
     font-weight: 100;
     text-align: center;
 }
-header {
-    width: 100%;
-    margin: 0 auto;
-    background-color: var(--main-bg-color);
-    padding: 2px;
-}
-nav {
-    background-color: var(--main-bg-color);
-    padding: 2px;
-}
+
 .herodiv {
     margin: 10px auto;
     position: relative;
