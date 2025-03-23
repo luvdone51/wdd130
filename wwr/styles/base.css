@@ -77,3 +77,42 @@ aside img {
     height: 100px;
     border: var(--border);
 }
+
+h1 {
+    font-family: "barlow", sans-serif;
+    font-display: var(--main-text-color);
+    font-weight: 500;
+
+}
+
+header {
+    background-color: var(--main-bg-color);
+    padding: 5px;
+    text-decoration: none;
+}
+
+section {
+    padding: var(--padding);
+    text-align: center;
+}
+
+article {
+    padding: var(--padding);
+    text-align: center;
+}
+
+nav {
+    background-color: var(--main-bg-color);
+    padding: 5px;
+    text-decoration: none;
+    float: center;
+}
+
+image {
+    width: 150px;
+    height: auto;
+    border: var(--border);
+    padding: 2px;
+    box-shadow: 0 0 30px grey;
+    float: center;
+}
