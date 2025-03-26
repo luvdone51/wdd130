@@ -1,6 +1,6 @@
 :root {
-    --main-bg-color: #cc7543;
-    --main-text-color: #0038F1;
+    --main-bg-color: #e29264;
+    --main-text-color: #06258a;
     --main-link-color: #3a9494;
     --main-link-hover-color: #2f87b3;
     --padding: 1rem;
@@ -35,16 +35,20 @@ nav a {
     display: block;
     padding: 20px;
 }
+nav {
+    background-color: var(--main-bg-color);
+    display: flex;
+    justify-content: center;
+}
 img {
     width: 150px;
     height: auto;
     border: var(--border);
     padding: 2px;
     box-shadow: 0 0 30px grey;
-
 }
 .social {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     margin: 10px;
 }
