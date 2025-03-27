@@ -20,7 +20,7 @@ body,html {
     font-family: barlow, sans-serif;
 }
 .hero-image {
-    background-image: url("../images/hero.webp");
+    background-image: url("../images/heroone.jpg");
     background-color: var(--main-bg-color);
     height: 50%;
     background-position: center;
