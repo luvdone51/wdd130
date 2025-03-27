@@ -14,32 +14,45 @@ body {
     font-weight: 100;
     text-align: center;
 }
-.herodiv {
-    margin: 10px auto;
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
 }
-.herodiv h1 {
-    font-size: 2rem;
-    color: var(--main-text-color);
+
+.hero-text {
+    text-align: center;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: white;
 }
-.herodiv h2 {
-    font-size: 1.5rem;
-    color: var(--main-text-color);
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
+.hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
 }
-.herodiv img {
-    float: right;
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    float: right;
+
+.hero-text button:hover {
+    background-color: #555;
+    color: white;
 }
 
 h1 {
