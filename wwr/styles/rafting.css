@@ -35,7 +35,8 @@ html {
 }
 
 .hero-text {
-    text-align:left;
+    text-align: center;
+    color: white;
     position:absolute;
     top: 50%;
     left: 50%;
