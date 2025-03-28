@@ -28,6 +28,12 @@ body,html {
     background-size: cover;
     position: relative;
 }
+#banner_box p {
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    padding: 20px;
+    text-align: center;
+}
 .hero-text {
     text-align: left;
     position: absolute;
