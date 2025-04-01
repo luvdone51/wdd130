@@ -6,9 +6,7 @@
     --padding: 1rem;
     --border: 1px solid rgb(0 0 0 / 0.1);
 }
-a {
-    text-decoration: none;
-}
+
 header {
     margin: 1rem auto;
     display: grid;
@@ -25,8 +23,6 @@ header {
 
 body {
     font-family: "Barlow", sans-serif;
-    font-weight: 100;
-    text-align: center;
 }
 
 body,
