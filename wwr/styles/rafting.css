@@ -9,6 +9,19 @@
 a {
     text-decoration: none;
 }
+header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr;
+    align-items: center;
+    border-bottom: 1px solid var(--main-bg-color);
+    max-width: 1000px;
+}
+.logo img {
+    margin: 0 0.25rem 0 1rem;
+        width: 64px;
+        height: auto;
+ }
 
 body {
     font-family: "Barlow", sans-serif;
@@ -46,22 +59,35 @@ html {
 }
 
 h1 {
+    font-size: 2rem;
     font-family: "Barlow", sans-serif;
     font-weight: 300;
     position:relative;
 }
 
 nav a {
-    color: var(--main-text-color);
     display: block;
+    color: var(--main-text-color);
     padding: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
 }
 
 nav {
     background-color: var(--main-bg-color);
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap
 }
+  
+.navigation a:hover {
+    color: var(--main-text-color);
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+ nav li {
+    flex: 1 1 auto;
+ }
 
 img {
     width: 150px;
@@ -82,4 +108,13 @@ footer {
     color: var(--main-text-color);
     padding: 20px;
     text-align: center;
+}
+
+article {
+    margin: 1em auto;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    padding: 1em;
+    background-color: var(--main-bg-color);
+    width: min(600px, 100%);
+    font-size: 1.2rem;
 }
