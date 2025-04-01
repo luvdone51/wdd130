@@ -48,7 +48,7 @@ html {
 h1 {
     font-family: "Barlow", sans-serif;
     font-weight: 300;
-    position: center;
+    position:relative;
 }
 
 nav a {
