@@ -9,11 +9,12 @@
 
 header {
     margin: 1rem auto;
-    display: grid;
+    display: center;
     grid-template-columns: 120px 1fr 1fr;
-    align-items: center;
+    align-items: horizontal;
     border-bottom: 1px solid var(--main-bg-color);
     max-width: 1000px;
+    
 }
 .logo img {
     margin: 0 0.25rem 0 1rem;
@@ -71,19 +72,21 @@ nav a {
 
 nav {
     background-color: var(--main-bg-color);
+ }
+
+ nav ul {
+    list-style-type: none;
     display: flex;
-    flex-wrap: wrap
-}
+ }
+ nav li {
+    flex: 1 1 auto;
+ }
   
 .navigation a:hover {
     color: var(--main-text-color);
     font-weight: 700;
     text-decoration: underline;
 }
-
- nav li {
-    flex: 1 1 auto;
- }
 
 img {
     width: 150px;
