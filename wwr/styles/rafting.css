@@ -8,16 +8,16 @@
 }
 
 header {
-    margin: 1rem auto;
     display: grid;
-    grid-template-columns: 120 px 1fr 1fr;
     align-items: center;
-    border-bottom: 1px solid var(--main-bg-color);
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: var(--border);
+    padding: var(--padding);
     max-width: 1000px;
 }
 
 .logo img {
-    margin: 0 0.25rem 0 1rem;
     width: 150px;
     height: auto;
 }
@@ -39,13 +39,17 @@ html {
 }
 
 .hero-image {
-    background-image: url("../images/heroone.jpg");
-    background-color: var(--main-bg-color);
-    height: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    align-items: center;
+    padding: var(--padding);  
+}
+.hero-text {
+    padding: var(--padding);
+    text-align: left;
+    color: var(--main-text-color);
+    background-color: rgba(188, 122, 84, 0.8);
 }
 
 nav {
@@ -58,24 +62,22 @@ nav {
 }
 
 nav li {
-    flex: 1 1 auto;
+    flex: none;
 }
 
 nav a {
-    display: block;
+    display:grid;
     color: var(--main-text-color);
     padding: 15px;
     text-decoration: none;
     font-size: 1.2rem;
 }
 nav ul {
-    margin: 20px;
-    padding: 0;
-    list-style-type: none;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
 }
 .navigation a:hover {
     color: var(--main-link-hover-color);
@@ -96,33 +98,12 @@ article {
     font-size: 1.2rem;
 }
 
-
-.hero-text {
-    text-align: center;
-    color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-25%, -25%);
-    color: var(--main-text-color);
-    background-color: rgba(188, 122, 84, 0.8);
-    padding: 15px;
-}
-
 img {
     width: 150px;
     height: auto;
     border: var(--border);
     padding: 2px;
     box-shadow: 0 0 30px grey;
-}
-article {
-    margin: 1em auto;
-    border: 1px solid rgb(0 0 0 / 0.1);
-    padding: 1em;
-    background-color: var(--main-bg-color);
-    width: min(600px, 100%);
-    font-size: 1.2rem;
 }
 
 head {
@@ -131,65 +112,54 @@ head {
     grid-template-rows: 3/2;
 }
 
-.product {
+.history{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    position: relative;
-    margin: 10px;
+    gap: 1rem;
+    align-items: center;
+    padding: var(--padding);
 }
-h2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    font-size: 1.5rem;
-    font-family: "Barlow", sans-serif;
-    font-weight: 300;
-    position: relative;
+.history-text {
+    padding: var(--padding);
     text-align: center;
     color: var(--main-text-color);
+    background-color: rgba(188, 122, 84, 0.8);
 }
-/* .history img {
-    display: grid
-    width:block auto;
-    height: 150px;
+.adventure {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    align-items: center;
+    padding: var(--padding);
+}
+.adventure-text {
+    padding: var(--padding);
+    text-align: center;
+    color: var(--main-text-color);
+    background-color: rgba(188, 122, 84, 0.8);
+}
+.adventure-image {
+    display: flex;
+    width: 150px;
+    height: auto;
     border: var(--border);
     padding: 2px;
     box-shadow: 0 0 30px grey;
-} */
-.history h1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    font-size: 2rem;
-    font-family: "Barlow", sans-serif;
-    font-weight: 300;
-    position: relative;
-    text-align: center;
-    color: var(--main-text-color);
 }
-.history h2{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    position: relative;
-    margin: 10px;
-}
+
 footer {
-    display: grid;
-    grid-template-columns: 1/1;
-    grid-template-rows: 1/1;
+    display: flex;
     justify-content: right;
-    background-color: var(--main-bg-color);
+    align-items: center;
     color: var(--main-text-color);
-    padding: 20px;
-    text-align: center;
+    padding: var(--padding);
+    background-color: var(--main-bg-color);
+    border-top: var(--border);
 }
 .social {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-area: auto;
-    margin: 10px;
+    display: flex;
+    align-items: horizontal;
+    gap: 1rem;
 }
+  
 
