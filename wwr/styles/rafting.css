@@ -50,7 +50,8 @@ html {
     padding: var(--padding);
     text-align: left;
     color: var(--main-text-color);
-    background-color: rgba(188, 122, 84, 0.8);
+    background-color: var(--main-bg-color);
+    font-size: 1.2rem;
 }
 
 nav {
@@ -111,8 +112,10 @@ img {
 
 head {
     display: grid;
-    grid-template-columns: 3/3;
-    grid-template-rows: 3/2;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
 
 .history {
@@ -147,15 +150,39 @@ head {
 
 .adventure-image {
     display: flex;
-    width: 200px;
+    width: 150px;
     height: auto;
     justify-content: center;
     align-items: center;
     padding: var(--padding);
-    box-shadow: 0 0 30px grey;
 }
 
 footer {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    height: 55px;
+    grid-gap: 16px;
+}
+
+footer p {
+    grid-column: 1/2;
+    padding-left: 12px;
+}
+
+/*for the social link*/
+footer .social {
+    grid-column: 2/3;
+    padding-top: 5px;
+    padding-left: 0;
+    padding-bottom: 5px;
+}
+
+footer a img {
+    width: 15%;
+
+}
+
+/* footer {
     display: flex;
     justify-content: right;
     align-items: center;
@@ -166,7 +193,17 @@ footer {
 }
 
 .social {
-    display: flex;
-    align-items: horizontal;
-    gap: 1rem;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 1fr auto;
+    height: 55px;
+    grid-gap: 16px   
+    
 }
+footer .social a {
+    grid: column 1 / column 2;
+    color: var(--main-text-color);
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+} */
