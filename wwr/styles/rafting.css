@@ -3,7 +3,7 @@
     --main-text-color: #0b33b6;
     --main-link-color: #3a9494;
     --main-link-hover-color: #2f87b3;
-    --padding: 1rem;
+    --padding: 3rem;
     --border: 1px solid rgb(0 0 0 / 0.1);
 }
 
@@ -43,7 +43,7 @@ html {
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
     align-items: center;
-    padding: var(--padding);
+    padding: 0;
 }
 
 .hero-text {
@@ -148,13 +148,14 @@ head {
     background-color: rgba(188, 122, 84, 0.8);
 }
 
-.adventure-image {
+.figure-image {
     display: flex;
     width: 150px;
     height: auto;
     justify-content: center;
     align-items: center;
     padding: var(--padding);
+    margin: 0 auto;
 }
 
 footer {
