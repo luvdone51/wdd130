@@ -136,7 +136,7 @@ head {
 .adventure {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding: var(--padding);
 }
@@ -149,7 +149,7 @@ head {
     overflow-wrap: break-word;
 }
 
-.figure-image {
+.adventure figure {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
