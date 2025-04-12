@@ -12,10 +12,9 @@ header {
     align-items: center;
     justify-content: space-between;
     grid-template-columns: 1fr 1fr;
-    border-bottom: var(--border);
-    padding: var(--padding);
     max-width: 1000px;
-}
+    margin: 1fr auto;
+} */
 
 .logo img {
     width: 150px;
@@ -143,20 +142,17 @@ head {
 }
 
 .adventure-text {
-    padding: var(--padding);
+    border: var(--border);
+    border-radius: 5px;
+    padding: 10px;
     text-align: center;
-    color: var(--main-text-color);
-    background-color: rgba(188, 122, 84, 0.8);
+    overflow-wrap: break-word;
 }
 
 .figure-image {
-    display: flex;
-    width: 150px;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-    padding: var(--padding);
-    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
 }
 
 footer {
