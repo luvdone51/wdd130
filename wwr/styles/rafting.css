@@ -127,11 +127,12 @@ head {
 }
 
 .history-text {
-    padding: var(--padding);
+    border: var(--border);
+    border-radius: 5px;
+    padding: 10px;
     text-align: center;
-    color: var(--main-text-color);
-    background-color: rgba(188, 122, 84, 0.8);
-}
+    overflow-wrap: break-word;
+} 
 
 .adventure {
     display: flex;
