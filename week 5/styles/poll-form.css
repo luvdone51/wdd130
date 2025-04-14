@@ -51,7 +51,7 @@ textarea {
     color: rgb(8, 1, 14);
 }
 label {
-    text-align: right;
+    text-align: left;
     padding-right: 1rem;
 }
 input,
