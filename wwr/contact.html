@@ -5,25 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Kimberly Hendricks">
-    <title>Contact Us</title>
-    <meta name="description" content="The purpose of this page is to give prospective rafters a way to contact us.  The content of this page will give information about the company, show rafting trails, contact information and descriptons of differnt ways to have fun.">
+    <title>Contact Us - WhiteWater Rafting Fun</title>
+    <meta name="description"
+      content="The purpose of this page is to provide information about WhiteWater Rafting Fun and to allow users to contact us for inquiries or booking rafting adventures.">
     <link rel="stylesheet" href="styles/rafting.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500&display=swap" rel="stylesheet">
 </head>
+
 <body>
+    <div class="hero-image">
+        <div class="hero-text">
+        </div>
+    </div>
     <header>
         <div class="logo">
             <img src="images/logo.webp" alt="Logo" width="200">
         </div>
-        <h1>WhiteWater Rafting Fun</h1>
         <nav>
             <ul class="navigation">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="aboutus.html">About Us</a></li>
                 <li><a href="trips.html">Trips</a></li>
-                <a class="current" href="contact.html">Contact</a>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -34,57 +39,47 @@
         <p> email: wwrfun@gmail.com</p>
         <div class="map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3226.423906970384!2d-114.80562152473304!3d36.03435901049594!
-       2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c92c712a705f15%3A0x72ee1553da2b52ad!2s268%20Lakeshore%20Rd%2C%20Boulder
-       %20City%2C%20NV%2089005!5e0!3m2!1sen!2sus!4v1743890571003!5m2!1sen!2sus" width="300" height="300"
+               2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c92c712a705f15%3A0x72ee1553da2b52ad!2s268%20Lakeshore%20Rd%2C%20Boulder
+               %20City%2C%20NV%2089005!5e0!3m2!1sen!2sus!4v1743890571003!5m2!1sen!2sus"
                 allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
+        
             <h2>Contact Us</h2>
             <p>We would love to hear from you! Please fill out the form below and we will get back to you as soon as
                 possible.</p>
-            <div class="contact-form">
-                <form action="https://formspree.io/f/xjvowzqk" method="POST">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                    <label for="message">Message:</label>
-                    <radiogroup name="message" id="message" required>
-                        <input type="radio" id="General Inquiry" name="message" value="question">
-                        <label for="Information">General Inquiry</label><br>
-                        <input type="radio" id="Reservation question" name="message" value="comment">
-                        <label for="reservations">Reservation question</label><br>
-                        <input type="radio" id="other" name="Website suggestion" value="other">
-                        <label for="other">Website Suggestion</label><br>
-                    </radiogroup>
-                    <textarea id="message" name="message" rows="5" required></textarea>
-                    <button type="submit">Send</button>
-            </div>
-            <div>
-                <h2>Follow Us</h2>
-                <p>Stay connected with us on social media for the latest updates and special offers!</p>
-                <nav class="sociallinks">
-                    <a href="https://www.facebook.com">
-                        <img src="images/facebook.webp" alt="Facebook">
-                    </a>
-                    <a href="https://www.instagram.com">
-                        <img src="images/instagram.webp" alt="Instagram">
-                    </a>
-                    <a href="https://www.twitter.com">
-                        <img src="images/twitter.webp" alt="Twitter">
-                    </a>
-                </nav>
-            </div>
+            <form>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label for="fullname">Full Name: </label>
+                    <input type="text" id="fullname" name="fullname">
+                    <label for="email">Email: </label>
+                    <input type="email" id="useremail" name="useremail">
+                </fieldset>
+                <fieldset>
+                    <legend>Questions</legend>
+                    <label for="question"> What questions do you have?</label>
+                    <select id="questions" name="questions">
+                        <option value="general inquiries">General Inquiry</option>
+                        <option value="reservation question">Reservation Question</option>
+                        <option value="website suggestion">Website Suggestion</option>
+                    </select>
+                    <label for="feedback">Please fill out requested informaton</label>
+                    <textarea id="feedback" name="feedback" rows="5" placeholder="information"></textarea>
+                <select>
+                    <label for="subscribe"> Please subscribe me to the montly newsletter</label>
+                    <input type="checkbox"id="subscribe" name="subscribe">
+                    <label for="fullname">Full Name: </label>
+                    <input type="text" id="fullname" name="fullname">
+                    <label for="email">Email: </label>
+                    <input type="email" id="useremail" name="useremail">
+                </select>
+                </fieldset>
+                <button type="submit">Submit</button>
+            </form>
+        
         </div>
-            <section class="product">
-                <h2>Meet Our Team</h2>
-        <div class="employee-images">
-            <img src="images/employee_1.webp" alt="Happy Employee1" width="200">
-            <img src="images/employee_2.webp" alt="Rafting" width="200">
-            <img src="images/employee_3.webp " alt="Beautiful" width="200">
-            <img src="images/employee_4.webp" alt="Fun Smiles" width="200">
-</div>
-            </section>
-          
+        <div>
+            <h2>Follow Us</h2>
+            <p>Stay connected with us on social media for the latest updates and special offers!</p>
     </main>
     <footer>
         <p>©️ 2025 😁 WhiteWater Travel Rafting Fun | Kimberly Hendricks 😁 Nevada, USA </p>
@@ -101,4 +96,5 @@
         </nav>
     </footer>
 </body>
+
 </html>
