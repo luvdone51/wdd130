@@ -103,7 +103,6 @@ article {
 img {
     width: 200px;
     height: auto;
-    border: var(--border);
     padding: 2px;
     box-shadow: 0 0 30px grey;
 }
@@ -125,8 +124,6 @@ head {
 }
 
 .history-text {
-    border: var(--border);
-    border-radius: 5px;
     padding: 10px;
     text-align: center;
     overflow-wrap: break-word;
@@ -141,7 +138,6 @@ head {
 }
 
 .adventure-text {
-    border: var(--border);
     border-radius: 5px;
     padding: 10px;
     text-align: center;
@@ -251,7 +247,7 @@ footer {
     
 }
 footer .social a {
-    grid: column 1 / column 2;
+    display: flex;
     color: var(--main-text-color);
     text-decoration: none;
     font-size: 1.2rem;
