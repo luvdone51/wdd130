@@ -37,11 +37,9 @@ html {
 }
 
 .hero-image {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    padding: 0;
 }
 
 .hero-text {
