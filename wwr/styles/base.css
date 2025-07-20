@@ -1,0 +1,118 @@
+
+
+:root {
+    --main-bg-color: #cc7543;
+    --main-text-color: #0038F1;
+    --main-link-color: #3a9494;
+    --main-link-hover-color: #2f87b3;
+    --padding: 1rem;
+    --border: 1px solid rgb(0 0 0 / 0.1);
+}
+
+body {
+    font-family: "barlow", sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
+
+h1 {
+    font-family: "barlow", sans-serif;
+    font-display: var(--main-text-color);
+    font-weight: 500;
+}
+
+nav {
+    background-color: var(--main-bg-color);
+    padding: 2px;
+}
+
+h1 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+}
+
+h1 {
+    color: var(--main-text-color);
+    font-family: var(--main-text-color);
+    padding: var(--padding)
+}
+
+img {
+    width: 150px;
+    height: auto;
+    border: var(--border);
+    padding: 2px;
+    box-shadow: 0 0 30px grey;
+}
+
+h2 {
+    color: var(--main-text-color);
+    font-family: var(--main-text-color);
+    padding: var(--padding);
+}
+
+p {
+    padding: 10px;
+    text-align: left;
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: var(--padding);
+    background-color: var(--main-bg-color);
+    color: #333;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: 100px;
+    border: var(--border);
+}
+
+h1 {
+    font-family: "barlow", sans-serif;
+    font-display: var(--main-text-color);
+    font-weight: 500;
+
+}
+
+header {
+    background-color: var(--main-bg-color);
+    padding: 5px;
+    text-decoration: none;
+}
+
+section {
+    padding: var(--padding);
+    text-align: center;
+}
+
+article {
+    padding: var(--padding);
+    text-align: center;
+}
+
+nav {
+    background-color: var(--main-bg-color);
+    padding: 5px;
+    text-decoration: none;
+    float: center;
+}
+
+image {
+    width: 150px;
+    height: auto;
+    border: var(--border);
+    padding: 2px;
+    box-shadow: 0 0 30px grey;
+    float: center;
+}
