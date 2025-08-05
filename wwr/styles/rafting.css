@@ -16,7 +16,7 @@ body {
     color: var(--accent1-color);
 }
 header, main, footer {
-    width: 840px;
+    width: 100vw;
     margin: 0 auto; 
 }
 header {
@@ -25,6 +25,7 @@ header {
     align-items: center;
     padding: 30px;
 }
+
 h1, h2 {
     width: 100%;
     font-family: var(--heading-font);
@@ -34,10 +35,11 @@ nav, p, section, article {
   margin: 16px;
   padding: 8px;
 }
-nav {
- display: flex;
- justify-content: flex-end;
- flex-wrap: wrap;
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
 }
 
 .socialmedia a{
@@ -45,8 +47,9 @@ nav {
 }
 .hero {
     position: relative;
+    text-align: center;
 }
-.hero img {
+.hero .hero_img {
     display: block;
     width: 100%;
     height: auto;
@@ -54,66 +57,36 @@ nav {
 h1 {
     position:absolute;
     top: 20px;
-    width: 100px;
+    width: 100%;
     padding: 16px;
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
     color: var(--accent2-color);
 }
+.hero article {
+    display: block;
+    position: absolute;
+    width: 80%;
+    top: 300px;
+    left: 80px;
+    margin: 0 auto;
+}
 .hero article img {
     float: right;
     width: 125px;
     box-shadow: #5863F8 0px 0px 10px;
 }
-.hero text {
-    position: absolute;
-    font-size: 2em;
-    color: var(--accent1-color);
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-}
-
-.hero article p {
-   position: absolute;
-   top:80px;
-   left: 20px;
-}
 
 .logo img {
     margin: 0 0.25rem 0 1rem;
-    width: 64px;
+    width: 100px;
     height: auto;
 }
 
 h1 {
     font-size: 2rem;
     font-family: Acme, Arial, sans-serif;
-}
-
-.navigation {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    padding: 0;
-    font-family: Arial, sans-serif;
-}
-
-/* .navigation li {
-    flex: 1 1 auto;
-}
-
-.navigation a {
-    display: block;
-    color: navy;
-    padding: 20px;
-    text-decoration: none;
-    font-size: 1.2rem;
-}
-
-.navigation a:hover {
-    color: #fff;
-    font-weight: 700;
-    text-decoration: underline;
 }
 
 body {
@@ -127,4 +100,4 @@ article {
     background-color: #ace;
     width: min(600px, 100%);
     font-size: 1.2rem;
-} */
+}
