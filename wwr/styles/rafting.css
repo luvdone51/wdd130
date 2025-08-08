@@ -39,11 +39,16 @@ nav ul {
     display: flex;
     justify-content: space-around;
 }
+.navagation {
+       list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
 footer {
     display: grid;
-    grid-column: 1/5;
-    grid-template-columns: 4fr 2fr;
-    justify-content: space-around;
+    grid-column: 1/4, 2/3;
+    background-color: #5863F8;
+    justify-content: left;
     margin: 16px;
     
 }
@@ -53,7 +58,8 @@ footer {
 }
 .sociallinks img {
    width: 40px;
-   
+   float: left;
+   justify-content: flex-end;
 }
 .hero {
     position: relative;
@@ -136,3 +142,7 @@ figure {
     padding: 0;
     margin: 10px;
 }
+/* .map {
+    width: 200px;
+    display: flex;
+} */
