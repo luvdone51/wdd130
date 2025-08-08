@@ -58,8 +58,8 @@ footer {
 }
 .sociallinks img {
    width: 40px;
-   float: left;
-   justify-content: flex-end;
+   justify-content: space-evenly;
+   align-items: flex-start;
 }
 .hero {
     position: relative;
