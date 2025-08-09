@@ -49,36 +49,41 @@
             <form>
                 <fieldset>
                     <legend>Contact Information</legend>
-                <div class="contact-info">
-                    <label for="fullname">Full Name:</label>
-                    <input type="text" id="fullname" name="fullname">
-                    <label for="email">Email:</label>
-                    <input type="email" id="useremail" name="useremail">
-                </div>
+                        <div class="form-item column2">
+                            <label for="fullname">Full Name:</label>
+                            <input type="text" id="fullname" name="fullanme">
+                        </div>
+                        <div class="form-item column2">
+                            <label for="useremail">Email:</label>
+                            <input type="email" id="useremail" name="useremail">
+                        </div>
                 </fieldset>
                 <fieldset>
                     <legend>Questions</legend>
-                    <div class="questions">
-                        <label for="question"> What questions do you have?</label>
-                        <select id="questions" name="questions">
-                                <option value="general inquiries">General Inquiry</option>
-                                <option value="reservation question">Reservation Question</option>
-                                <option value="website suggestion">Website Suggestion</option>
-                        </select>
-                <fieldset>
-                        <label for="feedback">Please fill out requested informaton</label>
-                        <textarea id="feedback" name="feedback" rows="5" placeholder="information"></textarea>
-                    <select id="subscribe" name="subscribe">
-                        <input type="checkbox" name="newsletter" id="subscribe">
-                        <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                        <div class="browser column1">
+                            <label for="browser">What is your favorite internet browser?</label>
+                                <select id="browser" name="browser">
+                                    <option value="chrome">Chrome</option>
+                                    <option value="firefox">Firefox</option>
+                                    <option value="safari">Safari</option>
+                                    <option value="edge">Edge</option>
+                                </select>
+                        <div class="pet column1"></div>
+                            <label for="pet">Do you have a pet? </label>
+                            <input type="checkbox" id="pet" name="pet">
+                        </div>
+                        <div class="feedback">
+                            <label for="feedback">List the places you have lived:</label>
+                            <textarea id="feedback" name="feedback" rows="4" placeholder="Las Vegas, Nevada, Netherlands"></textarea>
+                        </div>
+                        <div class="submit">
+                            <button type="submit">Submit Poll</button>
+                        </div>
+                        <div class="Follow">
+                            <h2>Follow Us</h2>
+                                <p>Stay connected with us on social media for the latest updates and special offers!</p>
+                        </div>
                 </fieldset>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-        <div class="Follow">
-            <h2>Follow Us</h2>
-            <p>Stay connected with us on social media for the latest updates and special offers!</p>
-        </div>
     </main>
     <footer>
         <p>©️2025 🌴 Kimberly Hendricks 🌴 | White Water Rafting Fun | Las Vegas, Nevada</p>
