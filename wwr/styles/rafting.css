@@ -71,7 +71,7 @@ footer {
 h1 {
     position:absolute;
     top: 20px;
-    width: 100%;
+    width: 95%;
     padding: 16px;
     text-align: center;
     opacity: 0.7;
@@ -111,7 +111,7 @@ article {
     padding: 1em;
     background-color: #ace;
     width: min(600px, 100%);
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .history {
     display: grid;
@@ -140,15 +140,15 @@ figure {
     margin: 10px;
 }
 /* contact us area */
-.contact, p {
+.business, h2, p {
     text-align: end;
+    margin: 10px;
 }
 .employees {
     display: grid;
     grid-template-columns: 1fr  1fr 1fr;
-    justify-content: center;
 }
-.employees p {
+.employees {
     grid-column: 1/4;
     text-align: center;
     justify-content: space-around;
@@ -167,6 +167,10 @@ figure {
 .feedback {
   text-align: center;
 }
+.map {
+  display: flex;
+}
+.contact
 /* poll form area */
 body {
   font-family: Barlow, Georgia, serif;
