@@ -1,5 +1,5 @@
 :root {
-  --primary-color:#5863F8;
+  --primary-color:#7f85db;
   --secondary-color:#4C5B40;
   --accent1-color:#502419;
   --accent2-color:#EA7624;
@@ -13,7 +13,7 @@
 }
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    color:#ab5640
 }
 header, main {
     width: 1200px;
@@ -28,7 +28,7 @@ header {
 h1, h2 {
     width: 100%;
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color:#1d2699;
 }
 nav, p, section, article {
   margin: 16px;
@@ -76,7 +76,7 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: var(--accent2-color);
+    color:#1d2699;
 }
 .hero article {
     display: block;
@@ -91,13 +91,11 @@ h1 {
     width: 125px;
     box-shadow: #5863F8 0px 0px 10px;
 }
-
 .logo img {
     margin: 0 0.25rem 0 1rem;
     width: 100px;
     height: auto;
 }
-
 h1 {
     font-size: 2rem;
     font-family: Arial, sans-serif;
@@ -123,6 +121,10 @@ article {
     justify-content: space-around;
     margin: 30px;
 }
+.history img {
+    margin: 0 0.25rem 0 2rem;
+    height: auto;
+}
 .adventure h2 {
     text-align: center;
 }
@@ -140,7 +142,7 @@ figure {
     margin: 10px;
 }
 /* contact us area */
-.business, h2, p {
+.business, p {
     text-align: end;
     margin: 10px;
 }
@@ -181,7 +183,7 @@ body {
 h1 {
   margin: 1rem;
   font-size: 1.5em;
-  color:gray;
+  color:#fff;
   text-align: center;
 }
 form {
