@@ -102,11 +102,9 @@ h1 {
     font-size: 2rem;
     font-family: Arial, sans-serif;
 }
-
 body {
     font-family: Arial, sans-serif;
 }
-
 article {
     margin: 1em auto;
     border: 1px solid rgb(0 0 0 / 10%);
@@ -142,15 +140,32 @@ figure {
     margin: 10px;
 }
 /* contact us area */
+.contact, p {
+    text-align: end;
+}
 .employees {
     display: grid;
     grid-template-columns: 1fr  1fr 1fr;
+    justify-content: center;
 }
 .employees p {
     grid-column: 1/4;
     text-align: center;
     justify-content: space-around;
     margin: 30px;
+}
+.wireframe {
+    text-align: justify;
+    text-decoration: #4C5B40;
+}
+.submit {
+    text-align: end;
+}
+.follow {
+    text-align: center;
+}
+.feedback {
+  text-align: center;
 }
 /* poll form area */
 body {
