@@ -46,7 +46,6 @@ nav ul {
 }
 footer {
     display: grid;
-    grid-column: 1/4, 2/3;
     background-color: #5863F8;
     justify-content: left;
     margin: 16px;
@@ -54,9 +53,11 @@ footer {
 .socialmedia a, a {
     text-decoration: none;
     font-family: var(--body-font);
-}
+ }
 .sociallinks img {
-   width: 40px;
+    display: grid;
+    width: 50px;
+    justify-content: space-between;
 }
 .hero {
     position: relative;
@@ -153,4 +154,13 @@ input, select, textarea {
     grid-template-columns: 1fr  1fr 1fr;
     text-align: center;
 }
-
+.employees {
+    grid-column: 1/4;
+    text-align: center;
+    justify-content: space-around;
+    margin: 30px;
+}
+.contact {
+    display: grid;
+    grid-template-columns: auto;
+}
