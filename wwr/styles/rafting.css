@@ -194,16 +194,18 @@ figure {
 .feedback {
   text-align: center;
 }
-/* poll form area */
+/*questions */
 body {
   font-family: Barlow, Georgia, serif;
   font-size: 1.2em;
+  font-weight: bold;
   color: #333;
   background: #fff;
 }
 h1 {
   margin: 1rem;
   font-size: 1.5em;
+  font-weight: bold;
   color:#fff;
   text-align: center;
 }
@@ -225,7 +227,8 @@ fieldset {
 }
 legend {
   padding: 0.5rem;
-  color: darkred;
+  font-weight: bold;
+  color:#5863F8;
   font-size: 1.3em;
 }
 label, input, button, select, textarea {
@@ -243,14 +246,14 @@ input, select, textarea {
   padding: 0.5rem;
   font-size: 1.1rem;
 }
-input[type="checkbox"] {
+input[type="radio"] {
   width: 25px;
   height: 25px;
-  vertical-align: bottom;
 }
 button {
   margin: 1rem;
   background-color:#502419;
+  font-weight: bold;
   color: #fff;
   border: none;
   border-radius: .5rem;
