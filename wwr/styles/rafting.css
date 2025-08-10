@@ -46,7 +46,7 @@ nav ul {
 }
 footer {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto;
   background-color: #5863F8;
   margin: 16px;
 }
@@ -250,7 +250,7 @@ input[type="checkbox"] {
 }
 button {
   margin: 1rem;
-  background-color: #8f6f70;
+  background-color:#502419;
   color: #fff;
   border: none;
   border-radius: .5rem;
@@ -265,7 +265,8 @@ button:hover {
   align-items: center;
 }
 .column1 {
-  grid-template-columns: 3fr 1fr;
+  display: flex;
+  flex-direction: column;
   margin: 0.5rem 0;
 }
 .column2 {
