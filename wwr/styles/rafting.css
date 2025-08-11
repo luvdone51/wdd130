@@ -46,13 +46,13 @@ nav ul {
 }
 footer {
   display: grid;
-  grid-template-columns: fr 6fr 3fr;
+  grid-row: 1/4;
   background-color: #5863F8;
   margin: 16px;
 }
 footer p {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   text-align: left;
   color: #fff;
 }
@@ -165,18 +165,19 @@ figure {
   top: 165px;
   left: 160px;
 }
-.employees section {
+.employee {
   display: grid;
-  grid-template-columns: 4 / 3 / 3;
+  grid-template-columns: 1fr  1fr 1fr;
 }
-.employees {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 10px;
-}
-.employees p {
+.employee h2 {
+  grid-column: 1/4;
   text-align: center;
+  justify-content: space-around;
+  margin: 30px;
+}
+.employee img {
+  margin: 0 0.25rem 0 2rem;
+  height: auto;
 }
 .contact h3 {
   text-align: center;
