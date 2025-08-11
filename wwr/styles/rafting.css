@@ -46,13 +46,13 @@ nav ul {
 }
 footer {
   display: grid;
-  grid-row: 1/4;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
   background-color: #5863F8;
-  margin: 16px;
+  margin-top: 20px;
 }
 footer p {
-  display: flex;
-  flex-direction: column;
+  grid-column: span 2;
   text-align: left;
   color: #fff;
 }
@@ -61,14 +61,20 @@ footer p {
   flex-direction: row;
   text-align: justify;
   color: #fff;
+  grid-column: span 1;
+  grid-row: 2/3;
 }
-.socialmedia a, a {
+/* .socialmedia a, a {
 text-decoration: none;
- }
-.sociallinks img {
+ } */
+.sociallinks {
   display: flex;
-  width: 50px;
   justify-content: right;
+  margin-right: 10px;
+  gap: 1rem;
+}
+.sociallinks a img {
+  width: 30px;
 }
 .hero {
   position: relative;
@@ -77,7 +83,6 @@ text-decoration: none;
 .hero .hero_img {
   display: block;
   width: 100%;
-  height: auto;
 }
 h1 {
   position:absolute;
@@ -98,7 +103,7 @@ h1 {
   margin: 0 auto;
 }
 .hero article img {
-  float: right;
+  float:inline-start;
   width: 125px;
   box-shadow: #5863F8 0px 0px 10px;
 }
@@ -156,14 +161,15 @@ figure {
   margin: 10px;
 }
 /* contact us area */
+.information {
+  display: flex;
+  margin: 30px;
+  align-items: center;
+  justify-content: center;
+}
 .business, p {
   text-align: center;
   margin: 20px;
-}
-.map {
-  position: absolute;
-  top: 165px;
-  left: 160px;
 }
 .employee {
   display: grid;
