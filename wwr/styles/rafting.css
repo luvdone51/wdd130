@@ -46,7 +46,7 @@ nav ul {
 }
 footer {
   display: grid;
-  grid-template-rows: auto;
+  grid-template-columns: fr 6fr 3fr;
   background-color: #5863F8;
   margin: 16px;
 }
@@ -167,7 +167,7 @@ figure {
 }
 .employees section {
   display: grid;
-  grid-template-columns: 2fr 2fr 2fr;
+  grid-template-columns: 4 / 3 / 3;
 }
 .employees {
     display: flex;
