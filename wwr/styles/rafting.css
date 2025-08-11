@@ -162,8 +162,8 @@ figure {
 }
 .map {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 165px;
+  left: 160px;
 }
 .employees section {
   display: grid;
