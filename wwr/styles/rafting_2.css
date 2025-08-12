@@ -1,0 +1,205 @@
+/* =====================
+   Root Variables
+===================== */
+:root {
+  --primary-color:#7f85db;
+  --secondary-color:#4C5B40;
+  --accent1-color:#502419;
+  --accent2-color:#EA7624;
+
+  --heading-font: "Roboto", sans-serif;
+  --body-font: "Barlow", sans-serif;
+}
+
+/* =====================
+   Global Styles
+===================== */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--body-font);
+  background-color: #f8f8f8;
+  color: var(--primary-color);
+}
+
+h1, h2, h3 {
+  font-family: var(--heading-font);
+  color: var(--accent1-color);
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* =====================
+   Header & Navigation
+===================== */
+header {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  padding: 30px;
+}
+
+.logo img {
+  max-height: 90px;
+}
+
+.navigation {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navigation li a {
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.navigation li a:hover {
+  color: var(--accent2-color);
+}
+
+/* =====================
+   Hero Section
+===================== */
+.hero {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.hero_img {
+  width: 100%;
+  height: auto;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #00000080;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+/* =====================
+   Features Section
+===================== */
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.feature {
+  display: flex;
+  gap: 1rem;
+}
+
+.feature img {
+  width: 50%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.feature-text {
+  flex: 1;
+}
+
+.feature.reverse {
+  flex-direction: row-reverse;
+}
+
+/* =====================
+   Wireframe Layout
+===================== */
+.wireframe {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.wireframe section {
+  flex: 1 1 calc(33.333% - 1rem);
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* =====================
+   Form Section
+===================== */
+form {
+  background: white;
+  padding: 2rem;
+  margin: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+}
+
+legend {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.form-item {
+  margin-bottom: 1rem;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit {
+  text-align: right;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--accent2-color);
+}
+
+/* =====================
+   Footer
+===================== */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-color);
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+
+footer img {
+  height: 30px;
+  margin-left: 0.5rem;
+}
+
+.footer_left, .footer_right {
+  display: flex;
+  align-items: center;
+}
