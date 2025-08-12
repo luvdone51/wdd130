@@ -30,20 +30,40 @@ h1, h2 {
   font-family: var(--heading-font);
   color:#1d2699;
 }
+
+/* navigation styles */
 nav, p, section, article {
   margin: 16px;
   padding: 8px;
 }
+
 nav ul {
-  list-style-type: none;
+  list-style: none;
+  gap: 30px;
+  text-decoration: none;
   display: flex;
   justify-content: space-around;
 }
+nav ul li a {
+  text-decoration: none;
+}
+
+nav ul li a:hover, 
+nav ul li a:focus {
+  background-color: #EA7624;
+  outline: none;
+  color: #333;
+  box-shadow: 0 0 15px var(--primary-color);
+  font-weight: 800;
+}
+
+
 .navagation {
   list-style-type: none;
   display: flex;
   justify-content:flex-start
 }
+
 footer {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -51,11 +71,13 @@ footer {
   background-color: #5863F8;
   margin-top: 20px;
 }
+
 footer p {
   grid-column: span 2;
   text-align: left;
   color: #fff;
 }
+
 .wireframe {
   display: flex;
   flex-direction: row;
@@ -64,6 +86,7 @@ footer p {
   grid-column: span 1;
   grid-row: 2/3;
 }
+
 /* .socialmedia a, a {
 text-decoration: none;
  } */
@@ -127,39 +150,49 @@ article {
   width: min(600px, 100%);
   font-size: 1rem;
 }
+
 .history {
   display: grid;
   grid-template-columns: 1fr  1fr 1fr;
 }
+
 .history h2 {
   grid-column: 1/4;
   text-align: center;
   justify-content: space-around;
   margin: 30px;
 }
+
 .history img {
   margin: 0 0.25rem 0 2rem;
   height: auto;
 }
+
 .adventure h2 {
   text-align: center;
 }
+
 figcaption {
   text-align: center;
 }
+
 .figure {
   display: flex;
 }
+
 .figure {
   text-align: center;
 }
+
 figure img {
   width: 200px;
 }
+
 figure {
   padding: 0;
   margin: 10px;
 }
+
 /* contact us area */
 .information {
   display: flex;
@@ -167,14 +200,17 @@ figure {
   align-items: center;
   justify-content: center;
 }
+
 .business, p {
   text-align: center;
   margin: 20px;
 }
+
 .employee {
   display: grid;
   grid-template-columns: 1fr  1fr 1fr;
 }
+
 .employee h2 {
   grid-column: 1/4;
   text-align: center;
@@ -209,6 +245,7 @@ body {
   color: #333;
   background: #fff;
 }
+
 h1 {
   margin: 1rem;
   font-size: 1.5em;
@@ -216,6 +253,7 @@ h1 {
   color:#fff;
   text-align: center;
 }
+
 form {
   width: 650px;
   margin: 0 auto;
@@ -225,6 +263,7 @@ form {
   background-color: lightgrey;
   display: grid;
 }
+
 fieldset {
   display: grid;
   grid-gap: .5rem;
@@ -232,6 +271,7 @@ fieldset {
   border: 1px solid rgb(0 0 0 / 0.2);
   padding: 1rem;
 }
+
 legend {
   padding: 0.5rem;
   font-weight: bold;
@@ -239,25 +279,31 @@ legend {
   text-align: center;
   font-size: 1.3em;
 }
+
 label, input, button, select, textarea {
   font-family: Roboto, sans-serif;
 }
+
 textarea {
   grid-column: 1 / -1;
   margin: 10px;
 }
+
 label {
   text-align: right;
   padding-right: 1rem;
 }
+
 input, select, textarea {
   padding: 0.5rem;
   font-size: 1.1rem;
 }
+
 input[type="radio"] {
   width: 25px;
   height: 25px;
 }
+
 button {
   margin: 1rem;
   background-color:#502419;
@@ -268,18 +314,22 @@ button {
   padding: .75rem;
   font-size: 1.2rem;
 }
+
 button:hover {
   background-color: darkgreen;
 }
+
 .form-item {
   display: grid;
   align-items: center;
 }
+
 .column1 {
   display: flex;
   flex-direction: column;
   margin: 0.5rem 0;
 }
+
 .column2 {
   grid-template-columns: 1fr 2fr;
   grid-row: auto;
