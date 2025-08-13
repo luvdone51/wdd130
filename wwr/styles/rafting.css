@@ -552,6 +552,22 @@ button:hover {
     background-color: #f1f1f1;
 }
 
+/* Contact Page Map Styles*/
+.map-link {
+  margin-top: 0.5rem;
+  text-align: center; 
+}
+
+.map-link a {
+  color: var(--primary-color); 
+  text-decoration: none;      
+  font-weight: 500;             
+}
+
+.map-link a:hover {
+  text-decoration: underline;
+}
+
 
 
 
