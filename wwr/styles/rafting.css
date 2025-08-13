@@ -84,7 +84,8 @@ footer {
   justify-content: center;  
   align-items: baseline;    
   gap: 20px;                
-  padding: 10px;
+  padding: 20px;
+  margin-top: 20px;
   background-color: var(--primary-color);
   color: white;
   flex-wrap: wrap; 
@@ -133,14 +134,15 @@ footer .sociallinks {
 
 .hero-text {
   position: absolute;
-  top: 50%;
+  top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 25px 40px;
   border-radius: 30px;
   font-family: var(--heading-font);
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  color: #f8f8f8;
   letter-spacing: 2px;
   user-select: none;
 }
@@ -190,7 +192,7 @@ article {
   text-align: center;
 }
 
-.figure {
+figure {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -226,10 +228,15 @@ figcaption {
   justify-content: center;
 }
 
-.business h2 p {
+.business p {
   text-align: center;
-  margin: 20px;
+  padding: 20px;
+  margin: 10px;
   color: var(--accent1-color);
+}
+
+.business h2 {
+  margin-left: 40px;
 }
 
 .employee {
@@ -243,6 +250,9 @@ figcaption {
   justify-content: space-around;
   margin: 30px;
 }
+.employee p {
+  text-align: center;
+}
 
 .employee img {
   width: 200px; 
@@ -254,6 +264,13 @@ figcaption {
 .contact h3 {
   text-align: center;
   color: #333;
+  font-weight: 200px;
+  font-size: 50px;
+  margin-top: 15px;
+}
+
+.contact p {
+  text-align: center;
 }
 
 .wireframe {
@@ -448,14 +465,6 @@ button:hover {
 }
 .description h2 {
   text-align: center;
-}
-figure {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  margin-top: 2rem;
-  align-items: stretch;
 }
 
 .events figure {
