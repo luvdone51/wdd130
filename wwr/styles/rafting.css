@@ -130,38 +130,6 @@ footer .wireframe a {
 footer .wireframe a:hover {
     color: var(--accent2-color);
 }
-/* footer {
-  display: flex;
-  justify-content: center;  
-  align-items: baseline;    
-  gap: 20px;                
-  padding: 20px;
-  margin-top: 20px;
-  background-color: var(--primary-color);
-  color: white;
-  flex-wrap: wrap; 
-}
-
-footer p {
-  margin: 0;
-  color:black;
-  font-weight: 100;
-} */
-
-
-
-/* footer .sociallinks {
-  display: flex;
-  gap: 15px;
-  margin-left: auto;
-  align-items: baseline;
-}
-
-.sociallinks a img {
-  width: 30px;
-} */
-
-/* hero Image 1 */
 .hero {
   position: relative;
   text-align: center;
@@ -317,9 +285,9 @@ figcaption {
 .contact h3 {
   text-align: center;
   color: #333;
-  font-weight: 200px;
+  font-weight: 200;
   font-size: 40px;
-  margin-top:50x;
+  margin-top:50px;
 }
 
 .contact p {
