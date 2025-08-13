@@ -110,6 +110,7 @@ footer p {
 footer .sociallinks {
   display: flex;
   gap: 15px;
+  margin-left: auto;
   align-items: baseline;
 }
 
@@ -409,34 +410,43 @@ button:hover {
 }
 
 .features {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  max-width: 1000px;
-  margin: auto;
-  padding: 2rem;
-}
-
+  display: block;
+} 
 .feature {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
   gap: 2rem;
+  margin-bottom: 2rem;
 }
 
 .feature img {
-  width: 50%;
-  height: 300px;
+  width: 300px;
+  height: auto;
   border-radius: 8px;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
-.feature-text {
-  width: 50%;
+.feature .text {
+  flex: 1;
+  color: #502419;
+  font-weight: 700;
+  text-align: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin: 1rem;
 }
 
 .feature-reverse {
   flex-direction: row-reverse;
 }
+
+
+
+
+
 
 /* ====== trips page ====== */
 
