@@ -54,9 +54,10 @@ header {
   list-style-type: none;
   display: flex;
   justify-content:flex-start;
+  font-size: 25px;
 }
 
-nav, p, section, article {
+nav p section article {
   margin: 16px;
   padding: 8px;
   color: var(--accent1-color);
@@ -173,6 +174,9 @@ article {
 
 .history {
   display: grid;
+  color: black;
+  font-weight: bold;
+  margin: 0 20px 0 20px;
   grid-template-columns: 1fr  1fr 1fr;
 }
 
@@ -184,15 +188,26 @@ article {
 }
 
 .history img {
-  margin: 0 0.25rem 0 2rem;
+  margin: 0 5rem 0 5rem;
   height: auto;
 }
 
 .adventure {
   text-align: center;
+  font-size: 20px;
+  color: var(--accent1-color);
 }
 
-figure {
+.adventure h2 {
+  margin-top: 30px;
+}
+
+.adventure p {
+  text-align: center;
+  padding: 10px;
+}
+
+.events-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -373,7 +388,7 @@ button:hover {
   grid-row: auto;
   margin-bottom: 20px;
 }
-/* html - Home Page */
+/*===== html - Home Page ====== */
 
 .cta-button {
   display: block;
@@ -394,38 +409,36 @@ button:hover {
 }
 
 .features {
-    display: flex;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem;
 }
 
 .feature {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
 }
 
 .feature img {
-   width: 100%;
-   max-width: 400px;
-   height: 250px;
-   object-fit: cover;
-   border-radius: 8px;
+  width: 50%;
+  height: 300px;
+  border-radius: 8px;
 }
 
 .feature-text {
-   text-align: center;
-    flex: 1;  
+  width: 50%;
 }
 
-.feature.reverse {
-    flex-direction: row-reverse;
+.feature-reverse {
+  flex-direction: row-reverse;
 }
 
-
-
-/* trips page */
+/* ====== trips page ====== */
 
 .hero-trips {
   position: relative;
